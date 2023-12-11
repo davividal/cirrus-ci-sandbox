@@ -2,5 +2,5 @@ container:
   image: python:latest
 
 
-check_task:
-  test_script: pytest
+just_deploy:
+  test_script: pip install -r requirements.txt ; pytest
