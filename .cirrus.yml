@@ -1,6 +1,2 @@
-container:
-  image: python:latest
-
-
-check_task:
-  test_script: pytest
+env:
+  ENVIRONMENT: production
